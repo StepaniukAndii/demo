@@ -1,3 +1,5 @@
+package demo1;
+
 import org.testng.annotations.Test;
 
 public class DemoSystemVar {
@@ -11,5 +13,5 @@ public class DemoSystemVar {
         System.out.println("===================================================");
     }
 
-    //mvn -Dtest=DemoSystemVar#checkSystemVar  -Denv=https://localhost test
+    //mvn -Dtest=demo1.DemoSystemVar#checkSystemVar  -Denv=https://localhost test
 }
